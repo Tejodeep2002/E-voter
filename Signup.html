@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="CSS Files/Signup.css">
+</head>
+<body>
+    <h1 class="main_heading">Registration Form</h1>
+    
+  
+    <form action="#">
+        <fieldset>
+        <p>*Name: <input type="text" name="name" class="name" id="name" placeholder="Enter your name"> 
+        <p>*Mobile Number: <input type="number" name="mobilenumber" class="mobilenumber" id="mobilenumber"placeholder="Enter Mobile no"></p>
+        <p>*Voter ID: <input type="number" name="voterid"  class="voterid" id="voterid" placeholder="Enter  Voter ID"></p>
+        <p>Password: <input type="password" name="password" class="password" id="password" placeholder="Enter Password" required title="Minimum size of password must be"></p>
+        <p>Confirm Password: <input type="password" name="conpassword" class="conpassword" id="conpassword" placeholder=" "></p>
+        <p>*Adress:<textarea name="adress" class="adress" id="adress" cols="30" rows="10" placeholder="Enter your Adress"></textarea></p>
+        <p>*Select Voter Type:
+            <select name="VoterType" id="">
+                <option value="">--Select the type--</option>
+                <option value="1">Single</option>
+                <option value="2">Group</option>
+            </select> 
+        </p>
+        </fieldset>
+        <fieldset>
+            <p><u><b>File Upload</b></u></P>
+            <P>*Photo Upload: <input type="file" name="photoid" id=""></P>
+        </fieldset>
+    </form>
+    <br>
+    <input type="submit" value="Submit">
+    <p class="sign">Already Registered?<a href="Index.html">:Signin</a></p>
+    
+</body>
+</html>
